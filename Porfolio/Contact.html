@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact</title>
+  <meta name="description" content="This page allows users to contact me for projects, ideas, or a good conversation" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="Portfolio.css" />
+
+  <!-- JS Libraries -->
+  <script src="three.min.js" defer></script>
+  <script src="vanta.waves.min.js" defer></script>
+
+  <!-- Custom JS -->
+   <script src="index.js" defer></script>
+  <script src="Contact.js" defer></script>
+</head>
+<body>
+  <div id="vanta-bg"></div>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Courses.html">Certificates</a></li>
+        <li><a href="About.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="project_header" style="margin-top: 3em;">
+    <h1 style="margin-bottom: 0.3em;">Let's connect</h1>
+    <h3 style="margin-top: 0.2em;">Whether it's for projects, ideas, or a good conversation.</h3>
+  </div>
+
+  <form id="contact-form" class="contact-form">
+    <label class="form-label">
+      Your email:
+      <input type="email" name="email" class="form-input" required>
+    </label>
+
+    <label class="form-label">
+      Your message:
+      <textarea name="message" class="form-textarea" rows="5" required></textarea>
+    </label>
+
+    <div style="text-align: center;">
+      <button type="submit" class="form-button">Send</button>
+    </div>
+  </form>
+
+  <div id="response-message" style="text-align:center; margin-top: 1em;"></div>
+
+  <div class="social_link">
+    <span><a href="https://github.com/KaranKarkera" target="_blank"><img src="Images/Github.png" class="social_link_img"></a></span>
+    <span><a href="https://www.linkedin.com/in/karankarkera?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="Images/linkedIn.png" class="social_link_img"></a></span>
+    <span><a href="Images/EasterEgg.mp4" target="_blank"><img src="Images/Instagram.png" class="social_link_img"></a></span>
+  </div>
+</body>
+</html>

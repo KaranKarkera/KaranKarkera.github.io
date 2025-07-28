@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is a page containing my projects" />
+  <title>Projects</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="Portfolio.css" />
+
+  <!-- JS Libraries -->
+  <script src="three.min.js" defer></script>
+  <script src="vanta.waves.min.js" defer></script>
+
+  <!-- Your Custom JS -->
+  <script src="index.js" defer></script>
+  <script src="Project.js" defer></script>
+</head>
+<body>
+  <!-- Vanta Background -->
+  <div id="vanta-bg"></div>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Courses.html">Certificates</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <!-- <button class="Theme_Button">Theme</button> -->
+    </nav>
+  </header>
+
+  <!-- Project Title -->
+  <div class="project_header">
+    <h1>PROJECTS</h1>
+  </div>
+
+  <!-- Project Grid -->
+  <main class="grid">
+    <article class="card" onclick="showProject('methanol')" tabindex="0">
+      <h2>QuickMeth: Predictive Synthesis for Methanol</h2>
+      <p>An experimental machine learning tool to optimize methanol synthesis from syngas. It predicts the best pressure and temperature conditions, reducing manual trial-and-error in lab research.</p>
+    </article>
+
+    <article class="card" onclick="showProject('segmentation')" tabindex="0">
+      <h2>Binary Segmentation for Road Detection</h2>
+      <p>A deep learning pipeline built using PyTorch and UNet for binary road segmentation on urban scene images. It preprocesses Cityscapes-like datasets and trains a custom UNet model to predict road masks from RGB images.</p>
+    </article>
+
+    <article class="card" onclick="showProject('fanpage')" tabindex="0">
+      <h2>BoyWithUke — A Fan Webpage</h2>
+      <p>A simple, interactive fan website dedicated to BoyWithUke. Built with HTML, CSS, and JavaScript, it features artist info, tour dates, and a styled merch page that matches the artist's aesthetic.</p>
+    </article>
+
+    <article class="card" onclick="showProject('gesture')" tabindex="0">
+      <h2>Gesture-Based Cursor Navigation Using MediaPipe</h2>
+      <p>A webcam-based gesture control system using MediaPipe and OpenCV that lets users move the mouse, click, or stop movement with simple hand gestures—pinch, open palm, or fist.</p>
+    </article>
+  </main>
+
+  <!-- Popup Modal -->
+  <div id="popup" class="popup" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+    <div class="popup-content">
+      <button class="close" onclick="closePopup()" aria-label="Close popup">&times;</button>
+      <div id="popup-text"></div>
+    </div>
+  </div>
+</body>
+</html>

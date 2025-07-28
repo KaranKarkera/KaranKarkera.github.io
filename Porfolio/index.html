@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="Description" content="This is my Portfolio website containing my Projects, Certifications and Other related information">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Portfolio.css">
+
+    <!-- JS Libraries -->
+    <script src="three.min.js" defer></script>
+    <script src="vanta.waves.min.js" defer></script>
+    <script src="index.umd.js" defer></script>
+
+    <!-- Your Custom JS -->
+    <script src="index.js" defer></script>
+    <script src="index_TS.js" defer></script>
+</head>
+<body>
+
+    <!-- Vanta Background -->
+    <div id="vanta-bg"></div>
+
+    <a href="Certificates/KaranKarkera_Resume.pdf" class="resume_btn resume_top_right" target="_blank">Resume</a>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Courses.html">Certificates</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <!--
+            This is a theme switch feature you can implement later
+            <button class = "Theme_Button">Theme</button>
+            -->
+        </nav>
+    </header>
+    <h1 id="index_name">Karan Karkera</h1>
+    <h3 id="index_designation"></h3>
+    <div class="snippet_container">
+    <div class="snippet_item">
+    <a href="Projects.html#BestPjt"><img src="Images/temp.webp" alt="Project Image" class="snippet_img"></a>
+    <h5 class="snippet_text">Best Project</h5>
+    </div>
+    <div class="snippet_item">
+    <a href="Projects.html#LatestPjt"><img src="Projects/meth.jpeg" alt="Project Image" class="snippet_img"></a>
+    <h5 class="snippet_text">Latest Project</h5>
+    </div>
+    <div class="snippet_item">
+    <a href="Courses.html#LatestCert"><img src="Images/temp.webp" alt="Certificate Image" class="snippet_img" id="targetImg3"></a>
+    <h5 class="snippet_text">Latest Certificate</h5>
+    </div>
+    </div>
+</body>
+</html>
