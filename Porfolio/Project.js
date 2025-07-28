@@ -25,7 +25,7 @@ const projects = {
   },
 
   segmentation: {
-    img: 'Images/temp.webp',
+    img: 'Projects/Rseg.jpeg',
     desc: `This project focuses on binary segmentation for road detection using a custom UNet model built with PyTorch. It processes Cityscapes-style urban scene images to generate binary masks that identify road areas.<br><br>
     The pipeline includes image preprocessing, class color mapping, dataset creation, and model training with BCE and Dice Loss. The model is trained with mixed precision (fp16) using the Accelerate library and evaluated using IoU and Dice Coefficient.<br><br>
     Github Repository: <a href="https://github.com/KaranKarkera/Python_Projects/tree/main/Road_Segmentation" target="_blank">Link to the project Github Repository</a><br><br>
