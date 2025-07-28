@@ -4,6 +4,8 @@ https://karankarkera.github.io/Porfolio/
 
 Welcome to my **Portfolio Website** — a clean and interactive showcase designed to highlight my projects, certificates, and a little information about myself.
 
+## Only for Desktop Application
+
 ---
 
 ## 🌟 Overview
